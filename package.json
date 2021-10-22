@@ -8,7 +8,7 @@
     "dev": "next",
     "prebuild": "next telemetry disable",
     "build": "next build",
-    "prestart": "next telemetry disable",
+    "prestart": "npm run build",
     "start": "next start"
   },
   "author": "",
